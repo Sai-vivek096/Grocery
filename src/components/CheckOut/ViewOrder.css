@@ -1,0 +1,19 @@
+.Accor{
+  width: 50%;
+  margin: 400px;
+  margin-top: 40px; 
+  filter: brightness(100%); 
+  font-weight: bold;
+  font-size: large;
+  background-color: aliceblue;
+}
+.viewordr{
+  background-image: url('https://images.inc.com/uploaded_files/image/1920x1080/getty_518504426_2000196920009280941_319976.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;  
+    position: relative;  
+    overflow: auto;
+
+}

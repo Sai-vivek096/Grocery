@@ -1,0 +1,66 @@
+.footer {
+    background: #fff;
+  }
+   .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+  }
+ .box-container h3 {
+    color: var(--black);
+    font-size: 2.5rem;
+    padding: 1rem 0;
+  }
+  .logo{
+    padding-left: 100px;
+  }
+
+.box-container p {
+    line-height: 1.8;
+    font-size: 1.5rem;
+    color: var(--light-color);
+    margin: 1rem 0;
+  }
+ .box-container .share a {
+    height: 4rem;
+    width: 4rem;
+    margin-right: 0.4rem;
+  }
+.box-container .share a i {
+    border-radius: 0.5rem;
+    background: #eee;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 4rem;
+    height: inherit;
+    width: inherit;
+    display: inline-block;
+  }
+.box-container .links {
+    display: block;
+    font-size: 1.5rem;
+    color: black;
+    padding: 1rem 0;
+  }
+ .box-container #emailLink {
+    text-transform: none;
+  }
+
+ .box-container .links:hover i {
+    padding-right: 2rem;
+  }
+
+
+.box-container img {
+    margin-top: 2rem;
+    height: 100px;
+    display: block;
+  }
+   .credits {
+    text-align: center;
+    margin: 1rem 0;
+    padding: 3rem 0;
+    border-top: var(--border);
+    font-size: 2rem;
+    color: var(--black);
+  }
+ 

@@ -1,0 +1,61 @@
+.body {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-left: 350px;
+}
+
+.containerrr {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.imgBx {
+    flex: 1;
+}
+
+.imgBx img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.detailss {
+    flex: 1;
+    padding: 20px;
+}
+
+.detailss h2 {
+    margin-bottom: 20px;
+}
+
+.detailss h2 span {
+    font-size: 18px;
+    color: #888;
+}
+
+.detailss p {
+    margin-bottom: 20px;
+}
+
+.detailss h3 {
+    margin-bottom: 20px;
+}
+
+.detailss button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.detailss button:hover {
+    background-color: #0056b3;
+}
